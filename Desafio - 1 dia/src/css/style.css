@@ -1,0 +1,71 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+ /* Asterisco é tudo, é utilizado para resetar a pagina pois como engloba tudo, é bom pra colocar comandos gerais. */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.conteudo{
+    margin-top: 8%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30vh;
+}
+.logo img{
+    width: 50%;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2em;
+}
+.login .caixa{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    border-radius: 4px;
+    width: 60%;
+    height: 3rem;
+    margin: 1em;
+    background: #353535;
+    color: white;
+}
+.login label{
+    margin-top: 3%;
+    color: white;
+    margin-right: 55%;
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    margin-top: 5%;
+
+}
+.botao button{
+    background: #2FB23C;
+    width: 20%;
+    height: 60%;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+
+
+}
+
